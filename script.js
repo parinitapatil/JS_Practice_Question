@@ -116,3 +116,27 @@
 //         f0 = f1;
 //         f1 = fi;
 //     }
+
+
+
+// Coding challenge #15: Create a function that will find the nth Fibonacci number using recursion✅
+// n is the input
+// function FibonacciRecursive(n) {
+//     if (n <= 0) return "Input Should be positive";
+//     else if (n === 1) return 0;
+//     else if (n === 2) return 1;
+//     else return FibonacciRecursive(n - 1) + FibonacciRecursive(n - 2);
+// }
+// console.log(FibonacciRecursive(6))
+
+// Coding challenge #16: Create a function that will return a Boolean specifying if a number is prime✅
+// function checkPrime(num) {
+//     // for Boolean result will either True or False
+//     if (num % 1 == 0 && num % 2 != 0) return true;
+//     else if (num == 2) return true;
+//     else return false;
+    
+// }
+// console.log(checkPrime(2))
+
+// Coding challenge #17: Calculate the sum of digits of a positive integer number
