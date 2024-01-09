@@ -140,3 +140,15 @@
 // console.log(checkPrime(2))
 
 // Coding challenge #17: Calculate the sum of digits of a positive integer number✅
+
+// function sumOfDigits(num) {
+//     let sum = 0;
+//     let n = num.toString();
+
+//     for (let char of n) {
+//         let digit = parseInt(char);
+//         sum += digit;
+//     }
+//     return sum;
+// }
+// console.log(sumOfDigits(12345))
