@@ -156,4 +156,20 @@
 // }
 // console.log(sumOfDigits(12345))
 
-// Coding challenge #18: Print the first 100 prime numbers
+// Coding challenge #18: Print the first 100 prime numbers✅
+// function checkPrime(num) {
+//     if (num == 1 || num == 0) return false;
+//     for (let i = 2; i < num; i++){
+//         if (num % i == 0) return false;
+//     }
+//     return true;
+// }
+
+// let n = 100;
+// let result = [];
+// for (let i = 1; i <= n; i++){
+//     if (checkPrime(i)) {
+//         result.push(i);
+//     }
+// }
+// console.log(result.join(' '))
