@@ -173,3 +173,57 @@
 //     }
 // }
 // console.log(result.join(' '))
+
+// Coding challenge #19: Create a function that will return in an array the first "nPrimes" prime numbers greater than a particular number "startAt"✅
+// function checkPrime(num) {
+//     if (num == 1 || num == 0) return false;
+//     for (let i = 2; i < num; i++){
+//         if(num%i==0) return false
+//     }
+//     return true
+// }
+
+
+// function greaterPrime(startAt, nPrimes) {
+//     let result = [];
+//     for (let i = startAt; result.length < nPrimes; i++){
+//         if (checkPrime(i)) {
+//             result.push(i)
+//         }
+//     }
+//     return result;
+// }
+
+// console.log(greaterPrime(10, 100));
+
+// Coding challenge #20: Rotate an array to the left 1 position✅
+// function shiftPosition(arr) {
+//     let firstElement = arr.shift();  //here we have removed 3 form the array by shift method, now the array is [4,5,6]
+//     arr.push(firstElement) //since we want all elements in array therefore we pushed the first element 3 back in the array because of this the element will grab the last index in array , the resultant array is [4,5,6,3]
+//     return arr;
+// }
+// console.log(shiftPosition([3,4,5,6]));
+
+// Coding challenge #21: Rotate an array to the right 1 position✅
+// function rotatArrayRight(arr) {
+//     // same concept as above with a slight diffrence
+//     let lastElement = arr.pop(); //we removed last element first, resultant array [3,4,5]
+//     arr.unshift(lastElement) //to shift the 6 to first  position we will use unshift method it adds lastElement to the first, its opposite of shift method
+//     return arr;
+// }
+// console.log(rotatArrayRight([3,4,5,6]))
+
+// Coding challenge #22: Reverse an array✅
+// function reverseArray(arr) {
+//     arr.reverse();
+//     return arr
+// }
+// console.log(reverseArray([1,2,3,4,5]))
+
+// Coding challenge #23: Reverse a string✅
+// function reverseString(str) {
+//     let arr1 = str.split('');
+//     let reverseArray = arr1.reverse();
+//     return reverseArray.join('');
+// }
+// console.log(reverseString('hello'))
