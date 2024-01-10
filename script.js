@@ -132,12 +132,15 @@
 // Coding challenge #16: Create a function that will return a Boolean specifying if a number is prime✅
 // function checkPrime(num) {
 //     // for Boolean result will either True or False
-//     if (num % 1 == 0 && num % 2 != 0) return true;
+//     if (num < 2) return false;
 //     else if (num == 2) return true;
-//     else return false;
+//     for (let i = 2; i <= Math.sqrt(num); i++){
+//         if (num % i == 0) return false;
+//     }
+//     return true;
     
 // }
-// console.log(checkPrime(2))
+// console.log(checkPrime(9))
 
 // Coding challenge #17: Calculate the sum of digits of a positive integer number✅
 
@@ -152,3 +155,5 @@
 //     return sum;
 // }
 // console.log(sumOfDigits(12345))
+
+// Coding challenge #18: Print the first 100 prime numbers
