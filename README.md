@@ -20,6 +20,10 @@ After completing a challenge, submit your solution by creating a pull request. T
 <h2>Star the Repository:</h2><br>
 If you find the challenges helpful, don't forget to star the repository! This helps others discover and benefit from the resource.<br>
 
+
+<p align="center">
+  
 ![tenor (5)](https://github.com/parinitapatil/JS_Practice_Question/assets/119065651/93c454a4-48bf-4be9-b26f-50892fd77d3c)
+</p>
 
 Let's grow together as JavaScript developers! Happy coding! 🚀
