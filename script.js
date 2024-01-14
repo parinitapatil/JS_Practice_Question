@@ -227,3 +227,35 @@
 //     return reverseArray.join('');
 // }
 // console.log(reverseString('hello'))
+
+// Coding challenge #22: Reverse an array ✅
+// function reverseArray(arr) {
+//     let newArray = [];
+//     for (let i = arr.length-1; i>=0; i--){
+//         newArray.push(arr[i]);
+//     }
+//     return newArray;
+// }
+// console.log(reverseArray([1,2,3,4,5]))
+
+// Coding challenge #23: Reverse a string✅
+
+// function reverseString(str) {
+//     let arr = str.split('');
+//     let reverseString = arr.reverse();
+//     return reverseString.join('');
+// }
+// console.log(reverseString('Hello⛄'))
+
+// Coding challenge #24: Create a function that will merge two arrays and return the result as a new array✅
+// function mergeTwoArray(arr1, arr2) {
+//     let newArray = [];
+//     for (let i = 0; i < (arr1.length + arr2.length); i++){
+//         if(i<arr1.length) newArray.push(arr1[i])
+//         if(i<arr2.length) newArray.push(arr2[i])
+//     }
+//     return newArray;
+// }
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+// console.log(mergeTwoArray(arr1, arr2))
