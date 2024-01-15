@@ -259,3 +259,33 @@
 // let arr1 = [1, 2, 3];
 // let arr2 = [4, 5, 6];
 // console.log(mergeTwoArray(arr1, arr2))
+
+
+// Coding challenge #25: Create a function that will receive two arrays of numbers as arguments and return an array composed of all the numbers that are either
+// in the first array or second array but not in both✅
+
+//🌟 includes method: The includes method is a JavaScript array method that is used to check whether an array includes a particular element.
+//It returns true if the array contains the specified element, and false otherwise
+
+//🌟 filter method: The filter method is used to create a new array containing elements that satisfy a provided condition.
+
+// function twoArray(arr1, arr2) {
+//     let newArray = [...arr1,...arr2];
+//     let resultantArray = newArray.filter(
+//         (num) =>
+//             (arr1.includes(num) && !arr2.includes(num)) ||
+//             (!arr1.includes(num) && arr2.includes(num))
+//     );
+    
+//     return resultantArray;
+// }
+// console.log(twoArray([1,2,3,4,5],[3,4,5,6,7]))
+
+// Coding challenge #26: Create a function that will receive two arrays and will return an array with elements that are in the first array but not in the second✅
+
+// function firstArrayElements(arr1, arr2) {
+//     let newArray = [...arr1, ...arr2];
+//     let resultantArray = newArray.filter(num =>!arr2.includes(num));
+//     return resultantArray;
+// }
+// console.log(firstArrayElements([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]));
